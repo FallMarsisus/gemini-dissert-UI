@@ -2,5 +2,4 @@ pypdf
 google-generativeai
 customtkinter
 markdown
-tkinter
 tkhtmlview

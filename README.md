@@ -7,6 +7,8 @@ Just execute the program, make sure you installed all the requirements with:
 `pip install -r requirements.txt`
 ***Make sure you are located on the good folder on a terminal.***
 
+To run the file, just do `python.exe ./gemini.py`
+
 ### API KEYS
 You'll also need an API Key in order for the code to work.
 You can get one here for free : [https://aistudio.google.com/app/apikey](https://aistudio.google.com/app/apikey) 

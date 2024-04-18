@@ -4,7 +4,7 @@ Don't forget to use a VPN if you're located in countries that doesnt yet allow g
 
 PUT YOUR API KEY : """
 
-API_KEY = "YOUR KEY HERE"
+API_KEY = "YOUR-API-KEY"
 
 
 from pypdf import PdfReader
@@ -45,7 +45,6 @@ def generateResponse():
   
   model = genai.GenerativeModel('gemini-pro')
   response = model.generate_content(f"Ecris {entryThema.get("1.0", ctk.END)} en reprenant le style d'écriture listé dans le texte suivant : {reader.pages[0].extract_text()}")
-  
   outputText.configure(state="normal")
   outputText.insert("0.0", response.text)
   outputText.configure(state="disabled")
