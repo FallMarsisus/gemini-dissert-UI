@@ -1,3 +1,12 @@
+""" Gemini-dissert-UI © 2024 by Marsisus is licensed under CC BY-SA 4.0 
+
+Don't forget to use a VPN if you're located in countries that doesnt yet allow gemini to work (as France)
+
+PUT YOUR API KEY : """
+
+API_KEY = "YOUR KEY HERE"
+
+
 from pypdf import PdfReader
 import google.generativeai as genai
 import customtkinter as ctk
@@ -10,7 +19,7 @@ import tkinter.scrolledtext as tkscroll
 from tkhtmlview import HTMLLabel
 from tkinter import ttk
 
-genai.configure(api_key="AIzaSyB5hVO3WufQ6M-hJSrOBgKvYtKKIUJL6Cc")
+genai.configure(api_key=API_KEY)
 ctk.set_appearance_mode("light")  # Modes: system (default), light, dark
 ctk.set_default_color_theme("blue")  # Themes: blue (default), dark-blue, green
 
